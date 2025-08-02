@@ -1,6 +1,7 @@
 **Movie Management System**
 A C++ Object-Oriented Programming (OOP) project developed as a second-semester academic assignment to manage a collection of movies. The system supports adding, displaying, and searching movies by genre (SciFi, Animation, Action), director, title, or rating, using OOP principles like inheritance, polymorphism, and composition.
-Features
+
+**Features**
 
 **Movie Management:**
 Add and store up to 50 movies with details (title, release date, rating, director).
