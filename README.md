@@ -34,7 +34,7 @@ Standard C++ libraries (<string>, <iostream>, <algorithm>, <cctype>)
 
 **Installation and Setup**
 
-Clone the repository:git clone https://github.com/your-username/Movie-Management-System.git
+Clone the repository:git clone https://github.com/ahmadalirizvi/Movies-Mangment-System
 cd Movie-Management-System
 
 
