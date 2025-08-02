@@ -1,22 +1,21 @@
-**Movie Management System
-**A C++ Object-Oriented Programming (OOP) project developed as a second-semester academic assignment to manage a collection of movies. The system supports adding, displaying, and searching movies by genre (SciFi, Animation, Action), director, title, or rating, using OOP principles like inheritance, polymorphism, and composition.
+**Movie Management System**
+A C++ Object-Oriented Programming (OOP) project developed as a second-semester academic assignment to manage a collection of movies. The system supports adding, displaying, and searching movies by genre (SciFi, Animation, Action), director, title, or rating, using OOP principles like inheritance, polymorphism, and composition.
 Features
 
-**Movie Management: 
-**Add and store up to 50 movies with details (title, release date, rating, director).
+**Movie Management:**
+Add and store up to 50 movies with details (title, release date, rating, director).
 Genre-Specific Functionality:
 SciFi: Technology analysis, future scenario simulation.
 Animation: Merchandise suggestions, family-friendly checks.
 Action: Censorship assessment, stunt coordinator reports.
 
-**Search Capabilities: 
-**Case-insensitive search by director name, title, or rating.
+**Search Capabilities:**
+Case-insensitive search by director name, title, or rating.
 Polymorphic Behavior: Uses virtual functions (displayDetails, calculateScore, getGenre) for genre-specific operations.
 Composition: Director class uses a Name object to manage first and last names.
 Dynamic Date Calculations: Computes days since release for score calculations using helper functions (isLeapYear, getDaysInMonth).
 
-**Project Structure
-**
+**Project Structure**
 movie.h, movie.cpp: Base class for movies with virtual functions and date calculations.
 scifi.h, scifi.cpp: Derived class for SciFi movies.
 animation.h, animation.cpp: Derived class for Animation movies.
